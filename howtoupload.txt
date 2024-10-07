@@ -1,0 +1,8 @@
+how to upload someones vid or your own if ur a dev
+
+1. open the site and upload the video file
+2. make a copy of videoexample.php
+3. give the copy a random string of text 
+4. replace anything thats video.mp4 with the video file name and type 
+5. fill out the video title, date, uploader name with the info in the forum
+6. get the uploaders contact into in the forum and notify them on the video upload

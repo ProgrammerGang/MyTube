@@ -1,0 +1,120 @@
+html, body {
+height: 100%;
+width: 100%;
+background-color: #252525;
+font-family: 'Roboto', sans-serif;
+color: #fff;
+}
+
+* {
+  -webkit-font-size-adjust: 100%;
+  -webkit-font-feature-settings: "liga", "onum";
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+}
+
+#create-account, #signup-button, #login-button {
+position: relative;
+top: 10px;
+right: 10px;
+padding: 10px 15px;
+background-color: #3498db;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body *:not(h1:contains("-"):only-child),
+body *:not(h2:contains("-"):only-child),
+body *:not(h3:contains("-"):only-child),
+body *:not(h4:contains("-"):only-child),
+body *:not(h5:contains("-"):only-child),
+body *:not(h6:contains("-"):only-child),
+body *:not(p),
+body:not(button) {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+p, button {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+p, h1, h2, h3, h4, h5 {
+color: snow;
+position: relative;
+}
+
+separator {
+margin-bottom: 1.25em;
+margin-top: 1.25em;
+padding: 0.5em;
+}
+
+/* For Mobile */
+@media (max-width: 767px) {
+video {
+max-width: 100%;
+height: auto;
+max-height: 480px;
+}
+}
+
+/* For Desktop */
+@media (min-width: 1024px) {
+video {
+max-width: 100%;
+height: auto;
+max-height: 1080px;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+font-size: 175%;
+}
+
+button {
+font-size: 130%;
+}
+}
+
+button {
+color: white;
+background-color: #252525;
+border: 2.5px solid white;
+border-radius: 25px;
+margin-bottom: 2.5px;
+}
+
+a {
+text-decoration: none;
+position: relative;
+color: #7992ff;
+}
+
+button#video {
+background: none;
+border: none;
+padding: 0;
+margin: 0;
+text-decoration: none;
+color: #7992ff;
+cursor: pointer;
+font-size: 18px;
+position: relative;
+}
+
+button#video:hover, a:hover {
+    color: #8a9dee;
+    text-decoration: none;
+    position: relative;
+    transition: color 4s ease-in-out;
+}
